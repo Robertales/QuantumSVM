@@ -13,7 +13,7 @@ from datasetLoader import LoadDataset
 from sklearn.metrics import confusion_matrix, recall_score, precision_score
 import winsound
 
-token = 'e909c180c225ad0228d74d987df754589bf4a740d2902a1c20422f4a576e12a21edf64b17a2b9346ac60a6b47cd7a7446780fca9d96ea2ed5dae7ff29ed4275f'
+token = 'add your token here'
 
 def myQSVM(train,test,features,token,qubit=2):
     import time
